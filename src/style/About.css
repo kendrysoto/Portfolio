@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+}
+
+.home-container{
+    background-color: #153659; 
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 0.1px solid white;
+}
+
+.home-title{
+    color: white;
+    margin-top: 40px;
+    font-family: serif;
+    font-size: 40px;
+    width: 100%;
+    font-weight: 800;
+}
+
+.home-p{
+    color:white; 
+    font-family: serif; 
+    font-weight: 800;
+    font-size: 30px;
+    text-align: left;
+    margin-left:180px ;
+}
+
+.home-p2{
+    color: white; 
+    font-family: serif; 
+    font-weight: 800;
+    font-size: 20px;
+    margin-left:236px ;
+    width: 20%;
+    float: right;
+    margin-right: 190px;
+    margin-top: 60px;
+    line-height : 25px;
+    text-align : justify;
+}
+
+.home-img{
+    width: 80%;
+    height: 400px;
+    max-width: 420px;
+    margin-top: 8px;
+    float: left;
+    margin-left: 127px;
+}
+
+.home-container-btn{
+    position: relative;
+    align-content: center;
+    top:18px;
+    height:50px; 
+    margin: 10px;  
+}
+
+.home-btn{
+    background: #0b1d30;
+    color:white ;
+    font-size: 18px;
+    margin: 21px;
+    padding: 10px;
+    border:#0d2238 solid 2px;
+    right:10px;
+    top: 20px;
+    text-decoration:none;
+    border-radius: 20px;
+}
+
+.home-container-btn:hover{
+    transform: scale(1.1);   
+}
+
+@media screen and (max-width: 800px) { 
+    .home-title{
+        margin-top: 45px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .home-p{
+        font-size: 20px;
+        text-align: left;
+        margin-left: 85px ;
+        margin-bottom: 8px; 
+    }
+
+    .home-p2{
+        font-size: 15px;
+        margin-left: 60px ;
+        width: 85%;
+        float: left;
+        margin-right: 60px;
+        margin-top: 0px;
+        line-height : 20px;
+    }
+
+    .home-img{
+        height: 325px;
+        max-width: 420px;
+        margin-top: 0px;
+        margin-left: 170px;  
+    }
+
+    .home-container-btn{
+        text-align: center;
+        top:18px;
+        margin: 2px;  
+    }
+    
+
+}
+
+@media (max-width: 400px) { 
+    .home-title{
+        margin-top: 60px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .home-p{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 36px ;
+        margin-bottom: 10px; 
+    }
+
+    .home-p2{
+        font-size: 16px;
+        margin-left: 30px ;
+        width: 85%;
+        float: left;
+        margin-right: 60px;
+        margin-top: 0px;
+        line-height : 20px;
+    }
+
+    .home-img{
+        height: 283px;
+        max-width: 420px;
+        margin-top: 0px;
+        margin-left: 50px;   
+    }
+
+    .home-container-btn{
+        text-align: center;
+        top:15px;
+        margin: 0px;  
+    }
+}
+

@@ -1,0 +1,35 @@
+.footer-container{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background-color: #0b1d30;
+   color: #243B55;
+   text-align: center;
+   padding: 5px;   
+}
+
+.footer-a{
+   text-decoration: none;
+   color: #FBD3E9;
+   margin: 8px;
+   font-family: serif;
+   font-size: 17px;
+   font-weight: 20;
+   padding: 10px;  
+}
+
+@media screen and (max-width: 800px) { 
+   .ffooter-a{
+      font-size: 15px; 
+   } 
+}
+
+@media (max-width: 400px) { 
+   .footer-a{
+      font-size: 14px;
+      padding: 20px;  
+   }
+}
+

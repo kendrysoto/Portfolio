@@ -1,0 +1,40 @@
+.dropdown-btn {
+    font-size: 37px;
+    background-color: #153659;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float: right;
+    position: fixed;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b1d30;
+    min-width: 16px;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: inline-block;
+font-family: Bookman, serif;
+font-size: 20px;
+font-weight: 10;
+}
+
+.dropdown-content a:hover{
+  opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
