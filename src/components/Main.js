@@ -8,6 +8,7 @@ function Main() {
     <div >
       <Switch>
         <Route exact path="/" component={About} />
+        <Route exact path="/portfolio" component={About} />
         <Route path="/Projects" component={Projects} />
       </Switch>
     </div>

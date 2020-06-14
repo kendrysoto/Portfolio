@@ -37,12 +37,12 @@
 	padding: 10px 30px; 
 }
 
-@media (min-width: 400px) { 
+@media (max-width: 400px) { 
 	.social {
-		position: fixed; 
 		left: 0; 
-		top: 260px; 
+		top: 400px; 
 		z-index: 2000; 
 	}
+
 
 }
